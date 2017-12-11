@@ -1,0 +1,91 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 837873284,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OpenShopIOSteps.openShopIODriver()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Compra de Produto de categoria Men",
+        "description": "",
+        "id": "realiza-a-compra-de-um-produto-de-categoria-men;compra-de-produto-de-categoria-men",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23370251750,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Que o sistema esta na tela de categoria Men",
+            "match": {
+              "location": "OpenShopIOSteps.que_o_sistema_est_na_tela_de_categoria_Men()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3684063,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat openshopio.steps.OpenShopIOSteps.seleciono_a_opcao_Men_s_Watches(OpenShopIOSteps.java:31)\r\n\tat ✽.When Seleciono a opcao Men s Watches(src/test/java/openshopio/features/CompraProduto.feature:5)\r\n",
+              "status": "pending"
+            },
+            "line": 5,
+            "name": "Seleciono a opcao Men s Watches",
+            "match": {
+              "location": "OpenShopIOSteps.seleciono_a_opcao_Men_s_Watches()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Clico em um produto",
+            "match": {
+              "location": "OpenShopIOSteps.clico_em_um_produto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Clico no botao Buy",
+            "match": {
+              "location": "OpenShopIOSteps.clico_no_botao_Buy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Clico no carrinho",
+            "match": {
+              "location": "OpenShopIOSteps.clico_no_carrinho()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Realiza a compra de um produto de categoria Men",
+    "description": "",
+    "id": "realiza-a-compra-de-um-produto-de-categoria-men",
+    "keyword": "Feature",
+    "uri": "src/test/java/openshopio/features/CompraProduto.feature"
+  }
+]

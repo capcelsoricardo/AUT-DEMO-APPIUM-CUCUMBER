@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37790" started-at="2017-12-10T11:41:14Z" finished-at="2017-12-10T11:41:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37790" started-at="2017-12-10T11:41:14Z" finished-at="2017-12-10T11:41:52Z">
+      <class name="openshopio.steps.SegundoTeste">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:openshopio.steps.SegundoTeste@610f7aa]" name="SetUp" is-config="true" duration-ms="23017" started-at="2017-12-10T12:41:14Z" finished-at="2017-12-10T12:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="prepara()[pri:0, instance:openshopio.steps.SegundoTeste@610f7aa]" name="prepara" is-config="true" duration-ms="940" started-at="2017-12-10T12:41:37Z" finished-at="2017-12-10T12:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepara -->
+        <test-method status="PASS" signature="PrimeiroTeste()[pri:0, instance:openshopio.steps.SegundoTeste@610f7aa]" name="PrimeiroTeste" duration-ms="13769" started-at="2017-12-10T12:41:38Z" finished-at="2017-12-10T12:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrimeiroTeste -->
+      </class> <!-- openshopio.steps.SegundoTeste -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
