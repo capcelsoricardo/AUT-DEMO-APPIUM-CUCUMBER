@@ -21,13 +21,14 @@ public class Helper {
 	}
 	
 	public static void swipe(WebElement element_a, WebElement element_b) {
-		
+						
 		AndroidDriver driver;
 		driver = (AndroidDriver) (SetUp.getDriver());
-
-		 TouchAction tAction = new TouchAction(driver);		 
-		 tAction.longPress(element_a).moveTo(element_b).release().perform();
-	}                                                                 
+		
+		TouchAction tAction = new TouchAction(driver);		 
+		tAction.longPress(element_a).moveTo(element_b).release().perform();				
+	}   
+	
     
 
 }

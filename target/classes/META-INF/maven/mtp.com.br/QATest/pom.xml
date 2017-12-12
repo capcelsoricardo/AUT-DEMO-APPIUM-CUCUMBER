@@ -18,17 +18,7 @@
   		<groupId>io.appium</groupId>
   		<artifactId>java-client</artifactId>
   		<version>5.0.4</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.testng</groupId>
-  		<artifactId>testng</artifactId>
-  		<version>6.13.1</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>info.cukes</groupId>
-  		<artifactId>cucumber-testng</artifactId>
-  		<version>1.2.5</version>
-  	</dependency>
+  	</dependency>  	  	
   	<dependency>
   		<groupId>info.cukes</groupId>
   		<artifactId>cucumber-java</artifactId>
@@ -43,6 +33,11 @@
   		<groupId>info.cukes</groupId>
   		<artifactId>cucumber-junit</artifactId>
   		<version>1.2.5</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-java</artifactId>
+  		<version>3.8.1</version>
   	</dependency>
   </dependencies>
 </project>

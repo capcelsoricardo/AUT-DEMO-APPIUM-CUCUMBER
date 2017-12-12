@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 837873284,
+              "duration": 1320609481,
               "status": "passed"
             },
             "match": {
@@ -23,7 +23,7 @@
         "steps": [
           {
             "result": {
-              "duration": 23370251750,
+              "duration": 25460958375,
               "status": "passed"
             },
             "line": 4,
@@ -35,8 +35,8 @@
           },
           {
             "result": {
-              "duration": 3684063,
-              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat openshopio.steps.OpenShopIOSteps.seleciono_a_opcao_Men_s_Watches(OpenShopIOSteps.java:31)\r\n\tat ✽.When Seleciono a opcao Men s Watches(src/test/java/openshopio/features/CompraProduto.feature:5)\r\n",
+              "duration": 22663083,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat openshopio.steps.OpenShopIOSteps.seleciono_a_opcao_Men_s_Watches(OpenShopIOSteps.java:33)\r\n\tat ✽.When Seleciono a opcao Men s Watches(src/test/java/openshopio/features/CompraProduto.feature:5)\r\n",
               "status": "pending"
             },
             "line": 5,

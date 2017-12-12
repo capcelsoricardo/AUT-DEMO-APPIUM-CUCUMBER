@@ -22,7 +22,9 @@ public class OpenShopIOSteps extends SetUp {
 	@Given("^Que o sistema esta na tela de categoria Men$")
 	public void que_o_sistema_est_na_tela_de_categoria_Men() throws Throwable {	        		
 		pageBemVindo.clickButtonSkip();	
-		pageInicio.vaiAte();
+		pageInicio.desceScroll();
+		pageInicio.clickMen();
+		
 	}
 
 	@When("^Seleciono a opcao Men s Watches$")
